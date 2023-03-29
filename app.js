@@ -34,3 +34,5 @@ app.get('/user', (request, response) => {
 app.get('/favorites', (request, response) => {
     response.status(200).json(app.locals.favorites);
 });
+
+lorem ipsom 
