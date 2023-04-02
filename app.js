@@ -27,7 +27,7 @@ app.get('/scholarships', (request, response) => {
     response.status(200).json(app.locals.scholarships);
 });
 
-app.get('/user/?userid=1', (request, response) => {
+app.get('/user', (request, response) => {
     response.status(200).json(app.locals.user);
 });
 
